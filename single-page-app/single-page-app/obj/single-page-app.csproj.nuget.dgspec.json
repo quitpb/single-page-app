@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quitpb\\tut-code\\sample-case-study\\single-page-app\\single-page-app\\single-page-app.csproj": {}
+    "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quitpb\\tut-code\\sample-case-study\\single-page-app\\single-page-app\\single-page-app.csproj": {
+    "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quitpb\\tut-code\\sample-case-study\\single-page-app\\single-page-app\\single-page-app.csproj",
+        "projectUniqueName": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
         "projectName": "single-page-app",
-        "projectPath": "C:\\Users\\quitpb\\tut-code\\sample-case-study\\single-page-app\\single-page-app\\single-page-app.csproj",
-        "packagesPath": "C:\\Users\\quitpb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quitpb\\tut-code\\sample-case-study\\single-page-app\\single-page-app\\obj\\",
+        "projectPath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
+        "packagesPath": "C:\\Users\\qpb96\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\quitpb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\qpb96\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -37,6 +42,26 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

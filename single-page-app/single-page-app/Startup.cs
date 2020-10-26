@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using single_page_app.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace single_page_app
 {
@@ -24,6 +26,9 @@ namespace single_page_app
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<MvcMovieContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
