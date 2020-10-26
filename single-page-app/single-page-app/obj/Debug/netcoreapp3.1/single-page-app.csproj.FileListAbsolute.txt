@@ -205,11 +205,6 @@ C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\bin\Debug\ne
 C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\single-page-app.csproj.CoreCompileInputs.cache
 C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\single-page-app.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\Razor\Views\MovieModels\Create.cshtml.g.cs
-C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\Razor\Views\MovieModels\Delete.cshtml.g.cs
-C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\Razor\Views\MovieModels\Details.cshtml.g.cs
-C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\Razor\Views\MovieModels\Edit.cshtml.g.cs
-C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\Razor\Views\MovieModels\Index.cshtml.g.cs
 C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Create.cshtml.g.cs
 C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Delete.cshtml.g.cs
 C:\Users\qpb96\Code\single-page-app\single-page-app\single-page-app\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Details.cshtml.g.cs

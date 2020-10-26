@@ -28,6 +28,12 @@ namespace single_page_app.Controllers
             return View();
         }
 
+        public IActionResult Movies()
+        {
+            return Redirect("https://localhost:44388/movies");
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
