@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QOmQrcfmFkogU+gep6B+XYCGPMBKoTMyUVXAaSlQNYcE1T3MYFFgTc/A2WlMMGWt6gUi3gJ8SnGuLY495AuouA==",
+  "dgSpecHash": "XehCDpz/w0fVQUyk6OM21bgUdZmWNZ41yiX4ibO5xp1x6+xJMtsUMZUjBJ83b57YwnafkXeGvQfACc7U3UBXKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\qpb96\\.nuget\\packages\\aspnet.scriptmanager.jquery\\3.5.1\\aspnet.scriptmanager.jquery.3.5.1.nupkg.sha512",
+    "C:\\Users\\qpb96\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
@@ -174,5 +176,16 @@
     "C:\\Users\\qpb96\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AspNet.ScriptManager.jQuery 3.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "AspNet.ScriptManager.jQuery",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using AspNet.ScriptManager;
 using Microsoft.EntityFrameworkCore;
 using single_page_app.Data;
 using single_page_app.Models;
@@ -56,8 +59,14 @@ namespace single_page_app.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Director,ReleaseDate,Genre,Description")] MovieModel movieModel)
         {
+
             if (ModelState.IsValid)
             {
+                if (MovieModelExists(movieModel.Name))
+                {
+                    return View(movieModel);
+                }
+
                 _context.Add(movieModel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -148,6 +157,22 @@ namespace single_page_app.Controllers
         private bool MovieModelExists(int id)
         {
             return _context.Movie.Any(e => e.Id == id);
+        }
+
+        private bool MovieModelExists(string name)
+        {
+            return _context.Movie.Any(e => e.Name == name);
+        }
+
+        [HttpPost]  
+        public IActionResult VerifyMovie(string name)
+        {
+            if (MovieModelExists(name))
+            {
+                return Json($"Move {name} is already registered!");
+            }
+
+            return Json(true);
         }
     }
 }
