@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XehCDpz/w0fVQUyk6OM21bgUdZmWNZ41yiX4ibO5xp1x6+xJMtsUMZUjBJ83b57YwnafkXeGvQfACc7U3UBXKQ==",
+  "dgSpecHash": "kk3tdScV7AU6apLo3w3RP3YxK4+0ClBPfVSNbE6EOuADnXHo6wfl1YdV7aQWkPGj6qlffcNcJhobBjlV6zbQ+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
+  "projectFilePath": "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qpb96\\.nuget\\packages\\aspnet.scriptmanager.jquery\\3.5.1\\aspnet.scriptmanager.jquery.3.5.1.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",

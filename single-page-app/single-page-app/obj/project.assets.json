@@ -8879,11 +8879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
+      "projectUniqueName": "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
       "projectName": "single-page-app",
-      "projectPath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
+      "projectPath": "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
       "packagesPath": "C:\\Users\\qpb96\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\obj\\",
+      "outputPath": "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -8956,7 +8956,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   },
