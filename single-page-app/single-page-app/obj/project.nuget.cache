@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XehCDpz/w0fVQUyk6OM21bgUdZmWNZ41yiX4ibO5xp1x6+xJMtsUMZUjBJ83b57YwnafkXeGvQfACc7U3UBXKQ==",
+  "dgSpecHash": "Tp/I9uX66gG6OOEK8RqOf92g4FanjuiC58atMiyV/nd5Eu9WG7gG7YnpJJOmHNJkgH/IuNMXT/EiAq1TTZnpug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
+  "projectFilePath": "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qpb96\\.nuget\\packages\\aspnet.scriptmanager.jquery\\3.5.1\\aspnet.scriptmanager.jquery.3.5.1.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
@@ -51,6 +51,7 @@
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.typescript.msbuild\\4.0.3\\microsoft.typescript.msbuild.4.0.3.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.4\\microsoft.visualstudio.web.codegeneration.3.1.4.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.4\\microsoft.visualstudio.web.codegeneration.contracts.3.1.4.nupkg.sha512",
     "C:\\Users\\qpb96\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.4\\microsoft.visualstudio.web.codegeneration.core.3.1.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj": {}
+    "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj": {
+    "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
+        "projectUniqueName": "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
         "projectName": "single-page-app",
-        "projectPath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
+        "projectPath": "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\single-page-app.csproj",
         "packagesPath": "C:\\Users\\qpb96\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qpb96\\Code\\single-page-app\\single-page-app\\single-page-app\\obj\\",
+        "outputPath": "C:\\Users\\qpb96\\Code\\kdi\\single-page-app\\single-page-app\\single-page-app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -61,6 +61,12 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -84,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
